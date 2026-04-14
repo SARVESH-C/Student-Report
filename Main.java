@@ -21,5 +21,6 @@ public class Main{
         s.setMarks(marks);
         s.totalMarks();
         s.calculatePercentage();
+        s.displayReport();
     }
 }

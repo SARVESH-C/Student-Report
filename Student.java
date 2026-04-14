@@ -42,7 +42,14 @@ public class Student {
             System.out.println("Grade of " + name + " is F");
         }
     }
-
+    public void displayReport(){
+        System.out.println("----------------Report Card---------------");
+        System.out.println("Name : " +name);
+        System.out.println("Roll No :" + rollNumber);
+        totalMarks();
+        calculatePercentage();
+        System.out.println("-----------------------------------------");
+    }
     
     
 }
